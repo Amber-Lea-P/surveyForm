@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kahvi Kaffee Coffee</title>
-    <link rel="stylesheet" type= "text/css" href="/style.css"/>
+    <link rel="stylesheet" type= "text/css" href="/style.css">
   </head>
 
   <body>
     <section class="survey">
+      <div class="bg">
+        <img src="/beans.jpg" alt="coffee beans">
+      </div>
      <h1 id="title">Kahvi Kaffee Coffee! Survey Form</h1>
      <p id="description">Thank you for visiting our coffee shop! Fill out the survey for a chance to win a free cup of coffee!</p>
      
@@ -31,10 +34,10 @@
       </fieldset>
 
       <fieldset>
-        <label>Would you recommend Kahvi Kaffee Coffee to a friend?
-        <label><input type="radio" name="recommend" class="inline" value="Definitely"/> Definitely</label>
-        <label><input type="radio" name="recommend" class="inline" value="Maybe"/> Maybe</label>
-        <label><input type="radio" name="recommend" class="inline" value="never"/> Never</label>
+        <legend>Would you recommend Kahvi Kaffee Coffee to a friend?</legend>
+        <label for="definitely"><input type="radio" name="recommend" class="inline" value="Definitely" id="definitely"> Definitely</label>
+        <label for="maybe"><input type="radio" name="recommend" class="inline" value="Maybe" id="maybe"> Maybe</label>
+        <label for="never"><input type="radio" name="recommend" class="inline" value="never" id="never"> Never</label>
         <label>In which area can we improve the most?
          <select name="favorite-feature" id="dropdown">
             <option>(Select an option)</option>
@@ -46,7 +49,7 @@
       </fieldset>
 
       <fieldset>
-        <label>How did you hear about us? (Check all that apply)
+        <lengend>How did you hear about us? (Check all that apply)</lengend>
         <label><input type="checkbox" name="referral" class="inline" value="Search"/> Search Engine</label>
         <label><input type="checkbox" name="referral" class="inline" value="social"/> Social Media (Facebook, Instagram, Tiktok, Linkedin, etc)</label>
 
