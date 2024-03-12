@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kahvi Kaffee Coffee</title>
+    <link rel="stylesheet" type= "text/css" href="/style.css"/>
+  </head>
+
+  <body>
+    <section class="survey">
+     <h1 id="title">Kahvi Kaffee Coffee! Survey Form</h1>
+     <p id="description">Thank you for visiting our coffee shop! Fill out the survey for a chance to win a free cup of coffee!</p>
+     
+     <form id="survey-form" action="https://register-demo.KahviKaffeeCoffee.org">
+
+      <fieldset>
+        <label id="name-label">Name <input type="text" id="name" name="full-name" placeholder="First and Last name" required></label>
+        <label id="email-label">Email <input type="email" id="email" name="email" placeholder="Email" required></label>
+        <label id="number-label">Age (optional)<input type="number" id="number" name="age" placeholder="Age" min="13" max="105"></label>
+        <label>Which store did you visit?
+          <select name="current-role" id="dropdown">
+            <option>(Select an option)</option>
+            <option>Lapua</option>
+            <option>Vaasa</option>
+            <option>Helsinki</option>
+            <option>Kauhava</option>
+            <option>Lapland</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label>Would you recommend Kahvi Kaffee Coffee to a friend?
+        <label><input type="radio" name="recommend" class="inline" value="Definitely"/> Definitely</label>
+        <label><input type="radio" name="recommend" class="inline" value="Maybe"/> Maybe</label>
+        <label><input type="radio" name="recommend" class="inline" value="never"/> Never</label>
+        <label>In which area can we improve the most?
+         <select name="favorite-feature" id="dropdown">
+            <option>(Select an option)</option>
+            <option>Customer Service</option>
+            <option>Quality of Product</option>
+            <option>Marketing</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label>How did you hear about us? (Check all that apply)
+        <label><input type="checkbox" name="referral" class="inline" value="Search"/> Search Engine</label>
+        <label><input type="checkbox" name="referral" class="inline" value="social"/> Social Media (Facebook, Instagram, Tiktok, etc)</label>
+        <label><input type="checkbox" name="referral" class="inline" value="Podcast"/> Podcast</label>
+        <label><input type="checkbox" name="referral" class="inline" value="LinkedIn"/> LinkedIn </label>
+        <label><input type="checkbox" name="referral" class="inline" value="blog"/> Blog</label>
+        <label><input type="checkbox" name="referral" class="inline" value="Friend"/> Friend or Coworker</label>
+        <label><input type="checkbox" name="referral" class="inline" value="news"/> News (Website, TV, Radio)</label>
+        <label><input type="checkbox" name="referral" class="inline" value="conference"/> Conference or Tradeshow</label>
+        <label><input type="checkbox" name="referral" class="inline" value="other"/> Other</label>
+        </label>
+        <label>Any comments or suggestions?
+          <textarea name="suggestions" rows="3" cols="30" placeholder="Please type here..."></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit"/>
+    </form>
+   </section>
+
+   <footer>
+        <p>
+          <a href="https://www.KaviKaffeeCoffe.fi" target="_blank">Visit our website</a>
+        </p>
+        <p class="address">1234 Coffee Lane</p>
+      </footer>
+  </body>
+</html>
