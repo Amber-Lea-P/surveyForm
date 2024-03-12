@@ -7,7 +7,7 @@ body {
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
     background-repeat: no-repeat;
     }
-
+/* form */
   .survey {
     width: 80%;
     background-color: burlywood;
@@ -64,6 +64,8 @@ body {
     display: block;
     margin: 0.5rem 0;
   }
+
+  /* Footer */
 
   footer {
     width: 80%;
