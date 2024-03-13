@@ -57,8 +57,8 @@ body {
     width: 60vw;
     max-width: 500px;
     min-width: 300px;
-    margin: 20 auto;
-    padding-bottom: 2em;
+    margin: 20px auto;
+    padding-bottom: 2rem;
   }
   fieldset {
     border: none;
@@ -73,7 +73,7 @@ body {
   input, textarea, select {
     margin: 10px 0 0 0;
     width: 100%;
-    min-height: 2em;
+    min-height: 2rem;
     border: 1px solid #28130A;
   }
   
