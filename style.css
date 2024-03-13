@@ -2,9 +2,9 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-    color: #4A0404;
-    font-family: Tahoma;
-    font-size: 16px;
+    color: #28130A;
+    font-family: serif;
+    font-size: 18px;
   }
 
 
@@ -32,17 +32,26 @@ body {
 /* form */
   .survey {
     width: 80%;
-    background-color: burlywood;
+    background-color: rgb(255, 236, 212);
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
     max-width: 500px;
+    
   }
   
-  #title, #description {
-    margin: 1em auto;
+  #title, #description,#title2 {
     text-align: center;
-    font-family: Impact, serif;
+    font-family: Serif;
+  }
+
+  h1{
+    font-size: 40px;
+    margin-bottom: -1rem;
+  }
+
+  h2{
+    font-size: 25px;
   }
   .survey-form {
     width: 60vw;
@@ -58,13 +67,14 @@ body {
   label {
     display: block;
     margin: 0.5rem 0;
-    font-family: Impact, serif;
+    font-family: Serif;
   }
+  
   input, textarea, select {
     margin: 10px 0 0 0;
     width: 100%;
     min-height: 2em;
-    border: 1px solid #5C4033;
+    border: 1px solid #28130A;
   }
   
   .inline {
@@ -78,7 +88,7 @@ body {
     margin: 1em auto;
     height: 2em;
     font-size: 1.1rem;
-    border: 1px solid #5C4033;
+    border: 1px solid #28130A;
     min-width: 300px;
   }
 
@@ -92,7 +102,7 @@ body {
   footer {
     width: 80%;
     font-size: 16px;
-    background:#4A0404;
+    background:#28130A;
     max-width: 540px;
     margin-left: auto;
     margin-right: auto;
@@ -108,7 +118,7 @@ body {
     margin: 1em auto;
     text-align: center;
     font-family: serif;
-    color: #4A0404;
+    color: #28130A;
   }
 
   a{
